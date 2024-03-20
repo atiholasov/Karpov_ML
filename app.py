@@ -8,7 +8,18 @@ from psycopg2.extras import RealDictCursor
 
 app = FastAPI()
 
-"""
+
+@app.get('/indexes')
+def get_indexes_from_db():
+    return
+
+
+@app.post("/filling/{simulator_type}")
+def filling_statuses_and_cvat_pj(simulator_type, db_indexes):
+    pass
+
+
+'''
 @app.get("/")
 def say_hello():
     return "hello, world"
@@ -54,18 +65,16 @@ def validate(user_data: User):
 @app.get('/db')
 def call_to_db(size: int):
     df = pd.read_sql(
-        f'''
+        f"""
             SELECT *
             FROM "user"
             LIMIT {size}
-            ''',
+            """,
         con="postgresql://robot-startml-ro:pheiph0hahj1Vaif@"
             "postgres.lab.karpov.courses:6432/startml"
     )
 
     return df.to_dict()
-
-"""
 
 
 @app.get('/user/{id}')
@@ -86,4 +95,4 @@ def call_to_db(id: int):
     else:
         return result
 
-
+'''
