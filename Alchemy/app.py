@@ -15,7 +15,7 @@ def get_db():
         return db
 
 
-@app.get("/user/{id}")
+@app.get("/user/{id}", response_model=UserGet)
 def get_all_users(id: int, db: Session = Depends(get_db)):
     result = db.query(User).filter(User.id == id).one_or_none()
     if result == None:
@@ -23,9 +23,9 @@ def get_all_users(id: int, db: Session = Depends(get_db)):
     return result
 
 
-@app.get("/post/{id}", response_model=List[PostGet])
+@app.get("/post/{id}", response_model=PostGet)
 def get_all_post(id: int, db: Session = Depends(get_db)):
-    result = db.query(Post).filter(Post.id == id).first()
-    if result == []:
+    result = db.query(Post).filter(Post.id == id).one_or_none()
+    if result == None:
         raise HTTPException(status_code=404, detail="post not found")
     return result
