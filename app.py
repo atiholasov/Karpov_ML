@@ -19,7 +19,6 @@ def filling_statuses_and_cvat_pj(simulator_type, db_indexes):
     pass
 
 
-'''
 @app.get("/")
 def say_hello():
     return "hello, world"
@@ -45,8 +44,6 @@ def sum_date(current_date: date, offset: int) -> date:
 @app.post("/user_hello")
 def out_print(name: str):
     return {"message": f"Hello, {name}"}
-
-
 
 
 class User(BaseModel):
@@ -94,5 +91,3 @@ def call_to_db(id: int):
         raise HTTPException(status_code=404, detail="user not found")
     else:
         return result
-
-'''
