@@ -74,7 +74,7 @@ def call_to_db(size: int):
     return df.to_dict()
 
 
-@app.get('/user/{id}')
+@app.get('/test/{id}')
 def call_to_db(id: int):
     conn = psycopg2.connect("postgresql://robot-startml-ro:pheiph0hahj1Vaif@"
                             "postgres.lab.karpov.courses:6432/startml",
@@ -82,11 +82,12 @@ def call_to_db(id: int):
     cursor = conn.cursor()
     cursor.execute(
         f"""
-                SELECT gender, age, city
-                FROM "user"
-                WHERE id = {id}
+                SELECT *
+                FROM feed_action
+                WHERE user_id = {id}
+                LIMIT 10
                 """)
-    result = cursor.fetchone()
+    result = cursor.fetchall()
     if result == None:
         raise HTTPException(status_code=404, detail="user not found")
     else:
