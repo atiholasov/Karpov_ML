@@ -56,3 +56,5 @@ def get_users_feed(limit=10, db: Session = Depends(get_db)):
            .limit(limit)
            .all())
     return out
+
+

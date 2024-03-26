@@ -106,3 +106,13 @@ class Vector:
         return self.coords == other.coords
 
 
+class ParsesCookies:
+    pass
+
+
+class ParsesBody:
+    pass
+
+
+class ParsesHeaders:
+    pass

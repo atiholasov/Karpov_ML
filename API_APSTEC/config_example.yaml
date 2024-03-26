@@ -1,0 +1,49 @@
+project: "test_1"
+org: "HSS"
+cvat_url : "https://cvat.apstec.net:8443/api/"
+cvat_user: "admin"
+cvat_password: "admin"
+#Directory to keep temporary files
+tmp_dir: "/tmp/cvat_tools"
+#Type of dump data representation. Possible formats: complex2 and rgbimage
+viewtype: "rgbimage"
+#Location of the yolo which will be use to auto annotate
+yolo:
+# names: "/media/anton/Hitachi/apstec/hss-yolo4/front-rf-tr-tiny-tiled-complex2/hss.names"
+# cfg: "/media/anton/Hitachi/apstec/hss-yolo4/front-rf-tr-tiny-tiled-complex2/yolov4_hss.cfg"
+# weights: "/media/anton/Hitachi/apstec/hss-yolo4/front-rf-tr-tiny-tiled-complex2/yolov4_hss.weights"
+names: "/var/tmp/output_cvat/220401_dataset-production/model/names.txt"
+cfg: "/var/tmp/output_cvat/220401_dataset-production/model/yolov4-tiny-hss-6-288.cfg"
+weights: "/var/tmp/output_cvat/220401_dataset-production/model/yolov4-tiny-hss-6-288_1767000.weights"
+#if confidence lower than min than it doesn't use
+yolo_min_confidence: 0.1
+# non_max threshold to keep only box with higher overlay than other
+non_maxima_threshold:      0.5
+#labels order is important here and should be the same as yolo model has
+labels: "/mnt/ml-storage/hss/2309_labels-all.yaml"
+assignee:
+        atiholasov:
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-071138_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-071138_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-071403_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-071403_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-072148_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-072148_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-072341_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-072341_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-073112_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-073112_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-073329_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-073329_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-082926_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-082926_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-083122_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-083122_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-083714_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-083714_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-083916_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-083916_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-084520_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-084520_rgbimage_2.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-084716_rgbimage_1.json"
+                - "/mnt/nas-qnap2-ml/hss_rfpipeline_kfp/kfprun-231130-145130/jsonDumps/rf_230906-084716_rgbimage_2.json"
