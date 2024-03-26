@@ -1,5 +1,5 @@
 import datetime
-from typing import Optional
+# from typing import Optional
 
 from pydantic import BaseModel
 
@@ -28,10 +28,12 @@ class UserGet(BaseModel):
 
 
 class FeedGet(BaseModel):
-    action: str
-    post_id: int
-    time: datetime.datetime
     user_id: int
+    user: UserGet
+    post_id: int
+    post: PostGet
+    action: str
+    time: datetime.datetime
 
     class Config:
         orm_mode = True

@@ -1,5 +1,6 @@
-from database import Base, SessionLocal
-from sqlalchemy import Column, Integer, String, desc, func, TIMESTAMP, ForeignKey
+from database import Base  # , SessionLocal
+from sqlalchemy import Column, Integer, String, TIMESTAMP, ForeignKey  # desc, func,
+from sqlalchemy.orm import relationship
 
 
 class Post(Base):
@@ -23,12 +24,14 @@ class User(Base):
 
 class Feed(Base):
     __tablename__ = "feed_action"
-    action = Column(String, primary_key=True)
-    post_id = Column(
-        Integer, ForeignKey('post.id'))
-    time = Column(TIMESTAMP)
     user_id = Column(
         Integer, ForeignKey("user.id"))
+    user = relationship('User')
+    post_id = Column(
+        Integer, ForeignKey('post.id'))
+    post = relationship('Post')
+    action = Column(String)
+    time = Column(TIMESTAMP, primary_key=True)
 
 
 """
