@@ -2,17 +2,12 @@ from typing import List
 from sqlalchemy.orm import Session
 from sqlalchemy import func, desc
 from database import SessionLocal
-from table_feed import Post, User, Feed
-from schema import PostGet, UserGet, FeedGet
+from models import MarkupStatusModel, CvatProjectModel, CvatProjectDumpModel
+from schema import CvatProject, MarkupStatus, CvatProjectDump
 from fastapi import FastAPI, Depends, HTTPException
 from pydantic import BaseModel
 
 app = FastAPI()
-
-
-def get_db():
-    with SessionLocal() as db:
-        return db
 
 
 class RequestForm(BaseModel):
@@ -20,16 +15,14 @@ class RequestForm(BaseModel):
     task_list: list
 
 
-app = FastAPI()
+def get_db():
+    with SessionLocal() as db:
+        return db
 
 
-@app.post("/db", response_model=List[PostGet])
+@app.post("/db", response_model=List[CvatProject])
 def get_users_feed(tasks_and_cvatPj: RequestForm, db: Session = Depends(get_db)):
-    out = (db.query(Post)
-           .select_from(Feed)
-           .filter(Feed.action == 'like')
-           .join(Post)
-           .group_by(Post.id)
-           .order_by(desc(func.count(Post.id)))
+    out = (db.query(CvatProjectModel)
            .all())
+    print(out)
     return out

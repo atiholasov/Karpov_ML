@@ -28,10 +28,7 @@ def preparing_task_dict():
 
 
 tasks_and_cvatPj = preparing_task_dict()
-# pp.pprint(tasks_for_db)
-
-# db_indexes = requests.get("/PATH/")
-# post_status = requests.post(f"PATH/filling/{simulator_type}", json=db_indexes)
+# pp.pprint(tasks_and_cvatPj)
 
 post_req = requests.post("http://127.0.0.1:8000/db", json=tasks_and_cvatPj)
-print(post_req.json()['name'])
+print(post_req.json())
