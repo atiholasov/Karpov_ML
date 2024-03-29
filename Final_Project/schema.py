@@ -26,7 +26,7 @@ class UserGet(BaseModel):
     class Config:
         orm_mode = True
 
-
+"""
 class FeedGet(BaseModel):
     user_id: int
     user: UserGet
@@ -37,3 +37,4 @@ class FeedGet(BaseModel):
 
     class Config:
         orm_mode = True
+"""

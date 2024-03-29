@@ -107,12 +107,69 @@ class Vector:
 
 
 class ParsesCookies:
-    pass
+
+    def cookies(self):
+        return self.request['cookies']
+
+    def is_authed(self):
+        is_key = "auth_key" in self.cookies()
+        return is_key
 
 
 class ParsesBody:
-    pass
+
+    def body(self):
+        return self.request.get('body', None)
 
 
 class ParsesHeaders:
-    pass
+    def headers(self):
+        return self.request['headers']
+
+    def need_json(self):
+        is_cont = ("application/json" == self.headers().get('content-type'))
+        return is_cont
+
+
+import json
+
+
+class JsonHandler(ParsesBody, ParsesHeaders):
+
+    def __init__(self, request):
+        self.request = request
+
+    def process(self):
+        if self.need_json() == False:
+            return None
+        else:
+            try:
+                num_key = len(json.loads(self.body()).keys())
+                return num_key
+            except:
+                return None
+
+
+class SecureTextHandler(ParsesBody, ParsesCookies):
+    def __init__(self, request):
+        self.request = request
+
+    def process(self):
+        if self.is_authed() == False:
+            return None
+        else:
+            l_body = len(self.body())
+            return l_body
+
+# Примеры
+r = {'cookies': {'auth_key': '123'},
+     'body': 'hello'
+    }
+print(SecureTextHandler(r).process())
+# 5
+
+r = {'cookies': {},
+     'body': 'hello'
+    }
+print(SecureTextHandler(r).process())
+# None

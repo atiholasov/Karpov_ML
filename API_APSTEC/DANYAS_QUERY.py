@@ -133,6 +133,7 @@ class BasicDataAlchemy:
                         db.commit()
                     else:
                         cvat_project_dump2 = Models.CvatProjectDumpModel.value(
+                        cvat_project_dump2 = Models.CvatProjectDumpModel.value(
                             dump=dump_query,
                             cvat_project=cvat_project_from_datatable,
                             pillar_num=2,

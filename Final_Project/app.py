@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func, desc
 from database import SessionLocal
 from table_feed import Post, User, Feed
-from schema import PostGet, UserGet, FeedGet
+from schema import PostGet, UserGet#, FeedGet
 
 app = FastAPI()
 
@@ -15,7 +15,7 @@ def get_db():
         return db
 
 
-"""
+
 @app.get("/user/{id}", response_model=UserGet)
 def get_all_users(id: int, db: Session = Depends(get_db)):
     result = db.query(User).filter(User.id == id).one_or_none()
@@ -42,19 +42,12 @@ def get_users_feed(id: int, limit=10, db: Session = Depends(get_db)):
 def get_post_feed(id: int, limit=10, db: Session = Depends(get_db)):
     result = db.query(Feed).filter(Feed.post_id == id).order_by(Feed.time.desc()).limit(limit).all()
     return result
-"""
+
 
 
 @app.get("/post/recommendations/", response_model=List[PostGet])
 def get_users_feed(limit=10, db: Session = Depends(get_db)):
     out = (db.query(Post)
-           .select_from(Feed)
-           .filter(Feed.action == 'like')
-           .join(Post)
-           .group_by(Post.id)
-           .order_by(desc(func.count(Post.id)))
-           .limit(limit)
+           .limit(10)
            .all())
     return out
-
-

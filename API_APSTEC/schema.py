@@ -97,7 +97,7 @@ class Dump(BaseModel):
     system: System
     ml_purpose_id: int
     ml_purpose: MlPurpose
-    created = datetime.datetime
+    created: datetime.datetime
 
     class Config:
         orm_mode = True

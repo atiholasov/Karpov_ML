@@ -21,14 +21,15 @@ def preparing_task_dict():
         task_list_for_db.add(index)
     task_list_for_db = list(task_list_for_db)
     tasks_for_db_ = {
+        'status': simulator_type,
         'project': self_config['project'],
         'task_list': task_list_for_db
     }
     return tasks_for_db_
 
 
-tasks_and_cvatPj = preparing_task_dict()
-# pp.pprint(tasks_and_cvatPj)
+tasks_and_cvat_project = preparing_task_dict()
+# pp.pprint(tasks_and_cvat_project)
 
-post_req = requests.post("http://127.0.0.1:8000/db", json=tasks_and_cvatPj)
+post_req = requests.post("http://127.0.0.1:8000/add/project_status", json=tasks_and_cvat_project)
 print(post_req.json())
