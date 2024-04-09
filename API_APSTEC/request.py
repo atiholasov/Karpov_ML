@@ -32,4 +32,4 @@ tasks_and_cvat_project = preparing_task_dict()
 # pp.pprint(tasks_and_cvat_project)
 
 post_req = requests.post("http://127.0.0.1:8000/add/project_status", json=tasks_and_cvat_project)
-print(post_req.json())
+print(post_req)
