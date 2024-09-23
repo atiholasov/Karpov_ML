@@ -2,3 +2,6 @@ venv/
 .ipynb_checkpoints/
 .idea/
 __pycache__/
+NN/venv_torch_cuda_12-2/
+NN/.idea/
+Final_Project_2/venv_py39_fin_2/

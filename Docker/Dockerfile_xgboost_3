@@ -1,0 +1,24 @@
+FROM ubuntu:20.04
+
+RUN apt-get update && \
+    apt-get install -y \
+    wget \
+    gnupg \
+    lsb-release \
+    software-properties-common \
+    subversion \
+    apt-utils \
+    && apt-get clean
+
+# Создаем директорию для SVN
+RUN mkdir -p /xgboost_svn
+
+# Выполняем SVN checkout
+RUN svn checkout --non-interactive --trust-server-cert --no-auth-cache https://svn9.apstec.net/hss2a/xgboost_hss2a /xgboost_svn
+
+WORKDIR /xgboost_svn
+
+# Делаем скрипт исполняемым
+RUN chmod +x xgboost_train_tool.sh
+
+CMD ["./xgboost_train_tool.sh", "./test_hss2a/settings_test_hss2a.xml"]

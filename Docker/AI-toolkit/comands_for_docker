@@ -1,0 +1,2 @@
+docker build -t xgboost:1 -f Dockerfile_xgboost .
+docker run -v /mnt/nas-qnap1:/mnt/nas-qnap1 -v /mnt/nas-qnap2:/mnt/nas-qnap2 -v /mnt/nas-qnap2-ml:/mnt/nas-qnap2-ml -it xgboost:1 > log_xgb.txt 2>&1

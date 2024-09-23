@@ -1,0 +1,293 @@
+2024-08-06 13:49:09 INFO Program started
+2024-08-06 13:49:09 INFO Reading input files
+2024-08-06 13:49:09 INFO The script was initialized with the "save_all_artifacts"=True
+2024-08-06 13:49:23 WARNING Train file (0, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230907-070540_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (1, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230907-081913_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (2, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230907-082248_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (3, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230921-080516_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (4, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230921-080854_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (5, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230921-090916_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (6, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230926-135714_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (7, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231019-131408_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (8, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231019-132120_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (9, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231019-132457_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (10, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231019-134751_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (11, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231115-103816_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (12, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231207-145716_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (13, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-112604_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (14, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231212-140758_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (15, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231212-150821_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (16, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-174101_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (17, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-175255_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (18, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-175647_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (19, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-180625_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (20, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-181004_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (21, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-181355_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (22, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-182039_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (23, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-182444_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (24, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-183324_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (25, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-183659_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (26, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-184054_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (27, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-184507_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (28, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-185145_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (29, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-185525_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (30, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-190309_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (31, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-190726_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (32, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-191438_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (33, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240105-122752_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (34, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240105-123129_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (35, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240105-123530_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (36, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240105-123945_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (37, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240109-080209_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (38, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240109-081325_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (39, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240109-082459_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (40, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240123-081447_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (41, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240208-122437_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (42, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240208-122832_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (43, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240209-142337_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (44, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240209-143102_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (45, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240212-125220_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (46, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240212-125933_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (47, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240220-082620_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (48, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240227-082600_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (49, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240227-083021_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (50, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240226-115913_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (51, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240226-120251_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (52, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240229-064424_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (53, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240229-064806_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (54, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240301-092816_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (55, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-085956_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (56, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-090738_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (57, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-091626_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (58, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-092518_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (59, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-093239_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (60, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-094105_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (61, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-094828_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (62, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-095654_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (63, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-100804_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (64, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-101707_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (65, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240306-093251_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (66, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240307-102235_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (67, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240311-134646_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (68, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240313-071156_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (69, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240315-113910_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (70, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240321-065719_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (71, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-112836_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (72, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-121249_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (73, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-125233_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (74, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-132501_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (75, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-135204_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (76, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-132004_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (77, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-095738_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (78, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-105349_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (79, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-113928_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (80, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-140353_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (81, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-101150_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (82, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-102015_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (83, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-083633_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (84, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-084452_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (85, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-085235_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (86, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-090011_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (87, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-090740_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (88, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240212-133703_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:23 WARNING Train file (89, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240220-084041_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (0, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230907-070002_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (1, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230907-070351_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (2, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230907-073335_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (3, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230907-082059_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (4, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230921-080330_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (5, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230921-080702_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (6, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/230921-093121_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (7, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231003-112600_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (8, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231010-093036_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (9, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231019-131804_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (10, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231019-135120_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (11, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231115-094635_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (12, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231122-084422_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (13, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231207-145524_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (14, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-112421_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (15, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-112809_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (16, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231212-140613_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (17, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231212-140947_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (18, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-175044_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (19, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-175449_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (20, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-175915_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (21, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-180344_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (22, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-180820_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (23, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-181154_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (24, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-181831_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (25, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-182637_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (26, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-183140_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (27, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-183510_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (28, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-183901_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (29, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-184259_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (30, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-184955_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (31, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-185331_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (32, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-185710_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (33, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-190122_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (34, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-190519_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (35, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-190911_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (36, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/231214-191728_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (37, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240105-122555_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (38, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240105-122942_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (39, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240105-123313_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (40, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240105-123758_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (41, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240109-081512_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (42, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240109-082231_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (43, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240123-082221_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (44, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240208-122630_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (45, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240208-123031_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (46, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240209-142711_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (47, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240209-143553_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (48, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240212-130307_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (49, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240220-082806_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (50, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240220-083205_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (51, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240227-083226_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (52, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240226-120104_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (53, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240226-120449_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (54, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240229-064608_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (55, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240229-065000_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (56, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240301-093347_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (57, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240301-105947_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (58, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-085536_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (59, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-090334_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (60, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-091235_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (61, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-092910_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (62, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-093631_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (63, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-094450_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (64, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-095303_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (65, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240305-101201_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (66, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240307-102716_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (67, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240313-071559_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (68, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240315-114246_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (69, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240321-070055_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (70, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-114526_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (71, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-120610_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (72, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-124752_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (73, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-130648_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (74, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-134143_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (75, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-131624_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (76, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240326-132340_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (77, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-092254_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (78, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-104407_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (79, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-113204_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (80, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-135205_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (81, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-094428_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (82, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240327-095227_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (83, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-083252_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (84, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-084115_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (85, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-084833_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (86, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-085632_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (87, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240328-090352_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (88, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240209-145202_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (89, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240212-131829_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (90, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240212-134034_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (91, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240227-083946_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 WARNING Test file (92, '/mnt/nas-qnap1/HSS2A_LIVEDUMPS/240401_security_280000/240226-123950_agg_refl_sides_front_torso.dat') was skipped due to zero size
+2024-08-06 13:49:36 INFO Reading training data...
+2024-08-06 13:49:48 INFO ... 280 passes read from 72 files
+2024-08-06 13:49:48 INFO Training 16 XGBoost model(s)...
+2024/08/06 13:49:49 WARNING mlflow.utils.autologging_utils: You are using an unsupported version of xgboost. If you encounter errors during autologging, try upgrading / downgrading xgboost to a supported version, or try upgrading MLflow.
+2024-08-06 13:49:50 INFO 	Model n=0	Num trees=74	Training error=0.179850	Validation error=0.340590
+2024-08-06 13:49:51 INFO 	Model n=1	Num trees=74	Training error=0.182020	Validation error=0.340690
+2024-08-06 13:49:52 INFO 	Model n=2	Num trees=56	Training error=0.213960	Validation error=0.342530
+2024-08-06 13:49:52 INFO 	Model n=3	Num trees=39	Training error=0.254480	Validation error=0.349710
+2024-08-06 13:49:53 INFO 	Model n=4	Num trees=39	Training error=0.177440	Validation error=0.340020
+2024-08-06 13:49:53 INFO 	Model n=5	Num trees=36	Training error=0.189950	Validation error=0.338640
+2024-08-06 13:49:54 INFO 	Model n=6	Num trees=36	Training error=0.190390	Validation error=0.338440
+2024-08-06 13:49:55 INFO 	Model n=7	Num trees=39	Training error=0.181290	Validation error=0.343830
+2024-08-06 13:49:55 INFO 	Model n=8	Num trees=74	Training error=0.179810	Validation error=0.339520
+2024-08-06 13:49:56 INFO 	Model n=9	Num trees=74	Training error=0.182330	Validation error=0.341160
+2024-08-06 13:49:57 INFO 	Model n=10	Num trees=56	Training error=0.213960	Validation error=0.342530
+2024-08-06 13:49:57 INFO 	Model n=11	Num trees=39	Training error=0.254500	Validation error=0.349700
+2024-08-06 13:49:58 INFO 	Model n=12	Num trees=36	Training error=0.187670	Validation error=0.338620
+2024-08-06 13:49:58 INFO 	Model n=13	Num trees=36	Training error=0.190050	Validation error=0.338620
+2024-08-06 13:49:59 INFO 	Model n=14	Num trees=36	Training error=0.190350	Validation error=0.338350
+2024-08-06 13:50:00 INFO 	Model n=15	Num trees=36	Training error=0.192410	Validation error=0.342420
+2024/08/06 13:50:00 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Successfully registered model 'xgb_test_hss2a_240806135000'.
+2024/08/06 13:50:09 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 1
+Created version '1' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:50:09 INFO Active run_id: e6bffcbc5d71436b99ab7e12e695f19e
+2024/08/06 13:50:09 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:50:17 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 2
+Created version '2' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:50:17 INFO Active run_id: 8d4f0805b1d04d23aad04371e32913e4
+2024/08/06 13:50:17 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:50:24 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 3
+Created version '3' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:50:24 INFO Active run_id: 7a2c92ca608248c494c5f334070ae996
+2024/08/06 13:50:24 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:50:31 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 4
+Created version '4' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:50:31 INFO Active run_id: 8cabfcbaf60d44d0ae892d3670719254
+2024/08/06 13:50:31 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:50:38 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 5
+Created version '5' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:50:38 INFO Active run_id: 6643fdd7841549e597987cd74332457d
+2024/08/06 13:50:38 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:50:45 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 6
+Created version '6' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:50:45 INFO Active run_id: 7a7e535f19ca4c3eac9ac11acff467c0
+2024/08/06 13:50:45 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:50:52 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 7
+Created version '7' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:50:52 INFO Active run_id: 228650ce032c490a8d7ddb6bc7b49410
+2024/08/06 13:50:52 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:50:59 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 8
+Created version '8' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:50:59 INFO Active run_id: 7cbb1f18a4cb499bad4550ab9e1dea97
+2024/08/06 13:50:59 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:51:07 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 9
+Created version '9' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:51:07 INFO Active run_id: ea04e6dfdebb4a88a0f33a161b79322d
+2024/08/06 13:51:07 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:51:14 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 10
+Created version '10' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:51:14 INFO Active run_id: 12f174109594487c9f34b159c1c22e96
+2024/08/06 13:51:14 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:51:21 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 11
+Created version '11' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:51:21 INFO Active run_id: 1d62537f583c414997865eacb8c83c90
+2024/08/06 13:51:21 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:51:27 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 12
+Created version '12' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:51:27 INFO Active run_id: f9fc3c5fc63346f699120e58a74a2c77
+2024/08/06 13:51:28 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:51:35 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 13
+Created version '13' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:51:35 INFO Active run_id: 75b7fcda558740fdbfe81110d5dfc7c8
+2024/08/06 13:51:35 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:51:42 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 14
+Created version '14' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:51:42 INFO Active run_id: 1bd3a3a4184740478e89e1e80246e2f6
+2024/08/06 13:51:42 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:51:49 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 15
+Created version '15' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:51:49 INFO Active run_id: c420d68c9c2e44a3b78c9bce33cd3a6d
+2024/08/06 13:51:49 WARNING mlflow.xgboost: Unable to log dataset information to MLflow Tracking.XGBoost version must be >= 1.7.0
+Registered model 'xgb_test_hss2a_240806135000' already exists. Creating a new version of this model...
+2024/08/06 13:51:56 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: xgb_test_hss2a_240806135000, version 16
+Created version '16' of model 'xgb_test_hss2a_240806135000'.
+2024-08-06 13:51:56 INFO Active run_id: b767d04a4b9f4525b3e9f844bb282d80
+2024-08-06 13:52:54 INFO ... 16 trained model(s) selected and saved
+2024-08-06 13:52:54 INFO Reading test data...
+2024-08-06 13:53:07 INFO ... 289 passes read from 70 files
+2024-08-06 13:53:07 INFO Calculating detection statistics for 70 test files and saving results...
+2024-08-06 13:53:08 INFO Calculating and saving total ROC curves...
+2024-08-06 13:54:52 INFO ... HTML file with ROC curves saved to: xgb_test_hss2a_roc_curves_total.html
+2024-08-06 13:54:52 INFO Program finished successfuly

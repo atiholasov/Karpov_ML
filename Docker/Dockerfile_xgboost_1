@@ -1,0 +1,39 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Обновляем пакеты и устанавливаем зависимости для pip и git
+RUN apt-get update && \
+    apt-get install -y \
+    git \
+    build-essential \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# Обновляем pip до последней версии
+RUN apt install -y python-pip
+
+# Устанавливаем необходимые Python библиотеки
+RUN pip install \
+    logging==0.5.1.2 \
+    re==2.2.1 \
+    argparse==1.1 \
+    numpy==1.19.1 \
+    pandas==1.1.4 \
+    scikit-learn==0.24.1 \
+    xgboost==1.3.3 \
+    plotly==5.3.1 \
+    mlflow==1.29.0
+
+ARG SSH_PRIVATE_KEY
+RUN mkdir /root/.ssh/
+RUN echo "${SSH_PRIVATE_KEY}" > /root/.ssh/id_rsa
+RUN chmod 600 /root/.ssh/id_rsa
+RUN ssh-keyscan -t rsa git.apstec.net >> ~/.ssh/known_hosts
+
+RUN git clone git@git.apstec.net:hss/xgboost_train_and_test_tool.git
+WORKDIR xgboost_train_and_test_tool
+RUN rm -rf /var/lib/apt/lists/*
+
+ENTRYPOINT ["/bin/bash", "-c"]
+
+CMD ["python3 xgboost_train_tool.py /test_hss/settings_test_hss.xml"]

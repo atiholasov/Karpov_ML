@@ -1,0 +1,52 @@
+FROM ubuntu:20.04
+
+ENV TZ=Europe/Helsinki
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+RUN apt-get update && \
+    apt-get install -y \
+    wget \
+    gnupg \
+    lsb-release \
+    software-properties-common \
+    subversion \
+    apt-utils \
+    dnsutils \
+    git \
+    && apt-get clean
+
+# DNS
+RUN echo "nameserver 192.168.253.247" > /custom_resolv.conf && \
+    echo "nameserver 192.168.32.47" >> /custom_resolv.conf && \
+    echo "nameserver 192.168.223.247" >> /custom_resolv.conf && \
+    echo "search apstec.net" >> /custom_resolv.conf
+
+# SVN
+RUN mkdir -p /xgboost_svn
+RUN svn checkout --non-interactive --trust-server-cert \
+    --username atiholasov --password sAS3Kq6h6y \
+    --trust-server-cert-failures=unknown-ca,cn-mismatch,expired,not-yet-valid,other https://svn9.apstec.net/hss2a/xgboost_hss2a /xgboost_svn
+
+# Deb
+RUN wget --no-check-certificate \
+    --user=atiholasov --password=sAS3Kq6h6y \
+    -r -np -nH --cut-dirs=3 -R "index.html*" \
+    https://192.168.32.107/repository/apt-focal/pool/x/xgboost-train-and-test-tool/xgboost-train-and-test-tool_1.0-13-g092aeea-dirty_all.deb \
+    -P /xgboost_svn
+RUN dpkg -i /xgboost_svn/x/xgboost-train-and-test-tool/xgboost-train-and-test-tool_1.0-13-g092aeea-dirty_all.deb
+
+RUN cd /xgboost_svn/test_hss2a
+RUN umask 000
+RUN cd ../..
+
+# xgboost_train_tool.sh
+WORKDIR /xgboost_svn
+RUN chmod +x /usr/bin/xgboost_train_tool.sh
+
+
+ENV RES_OPTIONS="ndots:0 timeout:1 attempts:1"
+ENV GIT_PYTHON_GIT_EXECUTABLE=/usr/bin/git
+#RUN export GIT_PYTHON_REFRESH=quiet
+
+ENTRYPOINT ["/bin/bash"]
+#CMD ["xgboost_train_tool.sh", "test_hss2a/settings_test_hss2a.xml"]
