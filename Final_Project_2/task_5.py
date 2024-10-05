@@ -11,7 +11,6 @@ SQLALCHEMY_DATABASE_URL = "postgresql://robot-startml-ro:pheiph0hahj1Vaif@postgr
 CHUNKSIZE = 30000
 
 
-# Функция для получения данных из базы данных
 def get_data_from_db(url, chunksize):
     engine = create_engine(url)
     DATA = f"""SELECT *
@@ -23,7 +22,6 @@ def get_data_from_db(url, chunksize):
     return DF
 
 
-# Функция для подготовки данных
 def prepare_data(DF_chunk):
     DF_chunk.drop(columns=["post_id", "id"], inplace=True)
     new_column_order = ["user_id", "gender", "age", "country", "city", "exp_group", "os", "source", "text", "topic",
@@ -40,32 +38,27 @@ def prepare_data(DF_chunk):
     return DF_chunk
 
 
-# Функция для разбиения данных на X и y
 def split_X_Y(DF_chunk):
     X = DF_chunk[[col for col in DF_chunk.columns if col != 'action']]
     y = DF_chunk["action"]
     return X, y
 
 
-# Основной код для обучения модели
 if __name__ == "__main__":
     DF = get_data_from_db(SQLALCHEMY_DATABASE_URL, CHUNKSIZE)
 
-    # Определение текстовых, категориальных и числовых признаков
     text_features = ['text']
     categorical_features = ['country', 'city', 'os', 'source', 'topic']
     numeric_features = ["user_id", 'gender', 'age', 'exp_group', 'year', 'month', 'day', 'hour']
 
-    # Создание пайплайна для обработки данных
     preprocessor = ColumnTransformer(
         transformers=[
-            ('text', TfidfVectorizer(max_features=500), 'text'),  # Обработка текстов через TF-IDF
-            ('cat', OneHotEncoder(handle_unknown='ignore'), categorical_features),  # Категориальные через OneHotEncoder
-            ('num', StandardScaler(), numeric_features)  # Числовые признаки через StandardScaler
+            ('text', TfidfVectorizer(max_features=500), 'text'),
+            ('cat', OneHotEncoder(handle_unknown='ignore'), categorical_features),
+            ('num', StandardScaler(), numeric_features)
         ]
     )
 
-    # Создаем общий пайплайн с обработкой признаков и обучением модели
     pipeline = Pipeline([
         ('preprocessor', preprocessor),
         ('catboost', CatBoostClassifier(learning_rate=0.02, iterations=1000))
@@ -74,22 +67,18 @@ if __name__ == "__main__":
     all_data = []
     all_labels = []
 
-    # Собираем все данные и метки для обучения
     for df_chunk in DF:
         df_chunk_prepared = prepare_data(df_chunk)
         X_chunk, y_chunk = split_X_Y(df_chunk_prepared)
         all_data.append(X_chunk)
         all_labels.append(y_chunk)
 
-    # Конкатенируем все чанки данных
     all_data = pd.concat(all_data, ignore_index=True)
     all_labels = pd.concat(all_labels, ignore_index=True)
 
-    # Обучение модели на всех данных
     pipeline.fit(all_data, all_labels)
 
-    # Сохранение модели
     with open('models/pipeline_with_tfidf.pkl', 'wb') as f:
         pickle.dump(pipeline, f)
 
-    print("Модель с TF-IDF и дополнительными признаками сохранена.")
+    print("Модель сохранена")
