@@ -4,30 +4,36 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 
-
 SQLALCHEMY_DATABASE_URL = "postgresql://robot-startml-ro:pheiph0hahj1Vaif@postgres.lab.karpov.courses:6432/startml"
-engine = create_engine(SQLALCHEMY_DATABASE_URL)
+CHUNKSIZE = 200000
 
 
-df_features = pd.DataFrame({
-    'user_id': [1, 2, 3],
-    'text': ['text1', 'text2', 'text3'],
-    'country': ['country1', 'country2', 'country3'],
-    'city': ['city1', 'city2', 'city3'],
-    'os': ['os1', 'os2', 'os3'],
-    'source': ['source1', 'source2', 'source3'],
-    'topic': ['topic1', 'topic2', 'topic3'],
-    'gender': [0, 1, 0],
-    'age': [23, 45, 31],
-    'exp_group': [1, 2, 1],
-    'year': [2023, 2023, 2023],
-    'month': [9, 9, 9],
-    'day': [1, 2, 3],
-    'hour': [12, 14, 16]
-})
+def get_data_from_db(url, chunksize):
+    engine = create_engine(url)
+    DATA = f"""SELECT *
+            FROM feed_action f
+            JOIN post p on f.user_id = p.id
+            JOIN "user" u on f.user_id = u.id
+            """
+    DF = pd.read_sql(DATA, engine, chunksize=chunksize)
+    return DF
 
+def prepare_data(DF_chunk):
+    DF_chunk.drop(columns=["post_id", "id"], inplace=True)
+    new_column_order = ["user_id", "gender", "age", "country", "city", "exp_group", "os", "source", "text", "topic",
+                        "time", "action"]
+    DF_chunk = DF_chunk.reindex(columns=new_column_order)
 
-user_ids = df_features[['user_id']]
+    DF_chunk['time'] = pd.to_datetime(DF_chunk['time'])
+    DF_chunk['year'] = DF_chunk['time'].dt.year
+    DF_chunk['month'] = DF_chunk['time'].dt.month
+    DF_chunk['day'] = DF_chunk['time'].dt.day
+    DF_chunk['hour'] = DF_chunk['time'].dt.hour
+    DF_chunk = DF_chunk.drop(columns=['time'])
+
+    return DF_chunk
+
+DF = get_data_from_db(SQLALCHEMY_DATABASE_URL, CHUNKSIZE)
 
 
 text_features = ['text']
@@ -44,7 +50,7 @@ preprocessor = ColumnTransformer(
 )
 
 # Применение препроцессора (преобразуем текстовые, категориальные и числовые данные)
-df_preprocessed = preprocessor.fit_transform(df_features)
+df_preprocessed = preprocessor.fit_transform(DF)
 
 # Преобразуем предобработанные данные в DataFrame
 df_preprocessed = pd.DataFrame(df_preprocessed)
